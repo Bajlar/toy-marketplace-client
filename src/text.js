@@ -42,11 +42,12 @@ Note: When a user is not logged in and if he/ she clicks on the View Details but
 
 Extra Section: Add two relevant sections. Try to make them attractive.
 
-5. Blogs page: Create a Blog where you will have to answer the following questions:
-What is an access token and refresh token? How do they work and where should we store them on the client-side?
-Compare SQL and NoSQL databases?
-What is express js? What is Nest JS (google it)?
-What is MongoDB aggregate and how does it work (google it)?
+// 5. Blogs page: Create a Blog where you will have to answer the following questions:
+
+// What is an access token and refresh token? How do they work and where should we store them on the client-side?
+// Compare SQL and NoSQL databases?
+// What is express js? What is Nest JS (google it)?
+// What is MongoDB aggregate and how does it work (google it)?
 
 6. All Toys page: Create an All Toys page where you will see the toys all the users have added in the tabular form. Each row of the All Toys table/list will have the following information:
 
@@ -89,8 +90,8 @@ Note:** If a user logs in they will only see the toys they have added. The user 
 
 10. For all the CRUD operations, show relevant toast/ notification/ anything with a meaningful message
 
-11. 404 page:
-Create a 404 page. Add any interesting jpg/ gif on the 404 page. Do not add header & footer on this page. Just add a jpg/ gif & a Back to home button. TheBack to home button will redirect the user to the home page.
+// 11. 404 page:
+// Create a 404 page. Add any interesting jpg/ gif on the 404 page. Do not add header & footer on this page. Just add a jpg/ gif & a Back to home button. TheBack to home button will redirect the user to the home page.
 
 12. Use the Environment variable to hide the Firebase config keys and Mongodb credentials.
 */
