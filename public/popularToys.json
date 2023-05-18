@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "TurboThrill GT",
+    "price": "29.99",
+    "image": "https://i.ibb.co/JKjph9Y/sports-car-neon-aesthetic-c81z0a3543p0hq3t.jpg",
+    "details": "Includes light-up features and movable limbs"
+  },
+  {
+    "id": 2,
+    "name": "Velocity Viper",
+    "price": "19.99",
+    "image": "https://i.ibb.co/mzXBJMH/Whats-App-Image-2022-01-03-at-17-41-57.jpg",
+    "details": "Embark on an exciting quest with friends and family"
+  },
+  {
+    "id": 3,
+    "name": "NitroBlaze RS",
+    "price": "39.99",
+    "image": "https://i.ibb.co/Lt1rPCB/ferrari-sf90-spider-wooden-toy-car.webp",
+    "details": "Build and create endless structures and designs"
+  },
+  {
+    "id": 4,
+    "name": "BlazeRider GT",
+    "price": "24.99",
+    "image": "https://i.ibb.co/Hr5pLHQ/lamborghini-centenario-1-32-scale-diecast-metal-alloy-pull-back-original-imafgtwjp7mnnahh.webp",
+    "details": "Responds to touch and plays interactive sounds"
+  },
+  {
+    "id": 5,
+    "name": "SpeedShift ZR",
+    "price": "49.99",
+    "image": "https://i.ibb.co/rfPQ2V7/8a348fb468e416bc7991614e9c1b5734-jpg-720x720-jpg.webp",
+    "details": "High-speed racing fun with remote control functionality"
+  },
+  {
+    "id": 6,
+    "name": "ThunderStrike RX",
+    "price": "39.99",
+    "image": "https://i.ibb.co/KrvB5X1/sport-car-toy-12456033-1.jpg",
+    "details": "Complete dollhouse set with furniture and accessories"
+  },
+  {
+    "id": 7,
+    "name": "FlashFire GTI",
+    "price": "34.99",
+    "image": "https://i.ibb.co/z44b3Kr/1920x0.webp",
+    "details": "Includes ball, bat, and other outdoor sports equipment"
+  },
+  {
+    "id": 8,
+    "name": "PowerSprint SRT",
+    "price": "14.99",
+    "image": "https://i.ibb.co/2q8hCyZ/1564625923902-0.webp",
+    "details": "Assortment of challenging and fun puzzles"
+  },
+  {
+    "id": 9,
+    "name": "RaceStorm GT-R",
+    "price": "19.99",
+    "image": "https://i.ibb.co/X2qcf52/ferrari-red-auto-sports-car.jpg",
+    "details": "Complete set of coloring tools and drawing pad"
+  }
+]
