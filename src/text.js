@@ -28,7 +28,7 @@ Note: Do not enforce the email verification method, as it will inconvenience the
 
 // Banner section -A slider/banner/ a meaningful section.
 
-Gallery Section - Show relevant pictures. Try to make it attractive.
+// Gallery Section - Show relevant pictures. Try to make it attractive.
 
 Shop by category- Implement a tab system for Shop by category section. Explore React-tabs, or you can implement this using custom CSS. There will be 3 tabs, each containing sub-categories of the category you have chosen.
 
