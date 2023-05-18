@@ -1,7 +1,7 @@
 /*
  * Main Requirements
 ------------------------------
-1. Make sure to keep the navbar and footer on all the pages except on the 404-page. Create a reasonable and meaningful footer. (including website logo, name, copyright, some contact information, social media links, address, etc.)
+// 1. Make sure to keep the navbar and footer on all the pages except on the 404-page. Create a reasonable and meaningful footer. (including website logo, name, copyright, some contact information, social media links, address, etc.)
 
 2. Your website should have a navbar with the Website logo, Website name, Home, All Toys, My Toys, Add A Toy, Blogs, and User profile picture.
 
