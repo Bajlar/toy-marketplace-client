@@ -3,7 +3,7 @@
 ------------------------------
 // 1. Make sure to keep the navbar and footer on all the pages except on the 404-page. Create a reasonable and meaningful footer. (including website logo, name, copyright, some contact information, social media links, address, etc.)
 
-2. Your website should have a navbar with the Website logo, Website name, Home, All Toys, My Toys, Add A Toy, Blogs, and User profile picture.
+// 2. Your website should have a navbar with the Website logo, Website name, Home, All Toys, My Toys, Add A Toy, Blogs, and User profile picture.
 
 Note: The User profile picture, Add A Toy and My Toys on the navbar are conditional based on login. If the user is logged in, the navbar will show the profile picture; otherwise, it will show the Login button. If the username is available, the user's name will be visible when the mouse hovers over the profile picture.
 
@@ -25,8 +25,11 @@ Photo URL
 Note: Do not enforce the email verification method, as it will inconvenience the examiner. If you want, you can add email verification after receiving the assignment result.
 
 4. Home page:
-Banner section -A slider/banner/ a meaningful section.
+
+// Banner section -A slider/banner/ a meaningful section.
+
 Gallery Section - Show relevant pictures. Try to make it attractive.
+
 Shop by category- Implement a tab system for Shop by category section. Explore React-tabs, or you can implement this using custom CSS. There will be 3 tabs, each containing sub-categories of the category you have chosen.
 
 For example, if the website is based on Educational and learning toys, the sub-categories for the 3 tabs can be Math Toys, Language Toys, engineering toys, and Science Toys, etc.. You need at least 3 sub-categories.

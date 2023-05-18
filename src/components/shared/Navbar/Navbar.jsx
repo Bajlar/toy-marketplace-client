@@ -12,10 +12,11 @@ const Navbar = () => {
       <li className="font-medium"> <Link to="/">My Toys</Link> </li>
       <li className="font-medium"> <Link to="/">Add A Toy</Link> </li>
       <li className="font-medium"> <Link to="/blogs">Blogs</Link> </li>
+      <li><button className="btn btn-outline btn-secondary capitalize">Login</button></li>
       <li className="font-medium text-3xl"> <Link to="/"> <FaUserAlt></FaUserAlt> </Link> </li>
     </>
   );
-  
+
   return (
     <div className="navbar bg-base-200">
       <div className="navbar-start">
