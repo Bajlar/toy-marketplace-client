@@ -1,18 +1,18 @@
 import React from 'react';
-import login from '../../../assets/images/login/login-img.gif';
-import { Link } from 'react-router-dom';
-import { FaGoogle } from 'react-icons/fa';
+import login from "../../../assets/images/login/login-img.gif";
+import { Link } from "react-router-dom";
 
-const Login = () => {
-
-  const handleLogin = event => {
+const SignUp = () => {
+  const handleSignUp = event => {
     event.preventDefault();
 
     const form = event.target;
+    const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
-    const userLogin = { email, password };
-    console.log(userLogin);
+    const photo = form.photo.value;
+    const userSignUp = { name, email, password, photo };
+    console.log(userSignUp);
   }
 
   return (
@@ -24,9 +24,21 @@ const Login = () => {
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-200">
           <div className="card-body">
             <h1 className="text-5xl text-red-500 font-bold text-center">
-              Login
+              Register Now
             </h1>
-            <form onSubmit={handleLogin}>
+            <form onSubmit={handleSignUp}>
+              <div className="form-control">
+                <label className="label text-2xl font-semibold">
+                  <span className="label-text">Your Name</span>
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter Your Name"
+                  className="input input-bordered"
+                  required
+                />
+              </div>
               <div className="form-control">
                 <label className="label text-2xl font-semibold">
                   <span className="label-text">Your Email</span>
@@ -51,24 +63,30 @@ const Login = () => {
                   required
                 />
               </div>
+              <div className="form-control">
+                <label className="label text-2xl font-semibold">
+                  <span className="label-text">Photo URL</span>
+                </label>
+                <input
+                  type="url"
+                  name="photo"
+                  placeholder="Your Photo URL"
+                  className="input shadow-2xl"
+                  required
+                />
+              </div>
               <div className="form-control w-1/2 mx-auto mt-6">
                 <input
                   className="btn btn-secondary capitalize"
                   type="submit"
-                  value="Sign In"
+                  value="Sign Up"
                 />
               </div>
               <div className="text-center mt-7">
-                <p>Or Sign In with Google</p>
-                <div className="flex justify-center gap-4 mt-4">
-                  <button className="btn btn-circle bg-[#be5e4b] hover:bg-[#FF3811]">
-                    <FaGoogle></FaGoogle>
-                  </button>
-                </div>
                 <p className="mt-4">
-                  New to site go to?
-                  <Link to="/signUp">
-                    <span className="text-[#FF3811]"> Sign In</span>
+                  Already Have an Account?
+                  <Link to="/login">
+                    <span className="text-[#FF3811]"> Login</span>
                   </Link>
                 </p>
               </div>
@@ -80,4 +98,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;

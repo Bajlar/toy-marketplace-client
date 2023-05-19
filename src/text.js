@@ -15,14 +15,14 @@ Note: The User profile picture, Add A Toy and My Toys on the navbar are conditio
 // Google Sign-in
 // A link that will redirect to the registration page
 
-Registration Page: The Registration page will have the Email/Password form having the following fields:
+// Registration Page: The Registration page will have the Email/Password form having the following fields:
 
-Name
-Email
-Password
-Photo URL
+// Name
+// Email
+// Password
+// Photo URL
 
-Note: Do not enforce the email verification method, as it will inconvenience the examiner. If you want, you can add email verification after receiving the assignment result.
+// Note: Do not enforce the email verification method, as it will inconvenience the examiner. If you want, you can add email verification after receiving the assignment result.
 
 4. Home page:
 
