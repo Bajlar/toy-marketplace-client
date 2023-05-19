@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import login from "../../../assets/images/login/login-img.gif";
 import { Link } from "react-router-dom";
+import { AuthContext } from '../../../providers/AuthProviders';
+import Swal from 'sweetalert2';
 
 const SignUp = () => {
+
+  const { createUser } = useContext(AuthContext);
+
   const handleSignUp = event => {
     event.preventDefault();
 
@@ -12,7 +17,21 @@ const SignUp = () => {
     const password = form.password.value;
     const photo = form.photo.value;
     const userSignUp = { name, email, password, photo };
-    console.log(userSignUp);
+    // console.log(userSignUp);
+
+    createUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log("created user", user);
+        Swal.fire({
+          title: "Success!",
+          text: "Your Register is successfully",
+          icon: "success",
+          confirmButtonText: "Ok",
+        });
+        form.reset();
+      })
+      .catch((error) => console.log(error));
   }
 
   return (
@@ -36,7 +55,6 @@ const SignUp = () => {
                   name="name"
                   placeholder="Enter Your Name"
                   className="input input-bordered"
-                  required
                 />
               </div>
               <div className="form-control">

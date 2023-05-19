@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import login from '../../../assets/images/login/login-img.gif';
 import { Link } from 'react-router-dom';
 import { FaGoogle } from 'react-icons/fa';
+import { AuthContext } from '../../../providers/AuthProviders';
+import Swal from 'sweetalert2';
 
 const Login = () => {
+
+  const { signIn } = useContext(AuthContext);
 
   const handleLogin = event => {
     event.preventDefault();
@@ -13,6 +17,20 @@ const Login = () => {
     const password = form.password.value;
     const userLogin = { email, password };
     console.log(userLogin);
+
+    signIn(email, password)
+      .then((result) => {
+        const user = result.user;
+        // console.log(user);
+        Swal.fire({
+          title: "Success!",
+          text: "Your Login successfully",
+          icon: "success",
+          confirmButtonText: "Ok",
+        });
+        form.reset();
+      })
+      .catch((error) => console.log(error));
   }
 
   return (

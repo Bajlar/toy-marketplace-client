@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import logo from "../../../assets/images/logo/logo.jpg";
 import { Link } from "react-router-dom";
 import { FaUserAlt } from "react-icons/fa";
+import { AuthContext } from "../../../providers/AuthProviders";
 
 const Navbar = () => {
+
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => console.log(error));
+  };
 
   const navItems = (
     <>
@@ -22,13 +31,26 @@ const Navbar = () => {
       <li className="font-medium">
         <Link to="/blogs">Blogs</Link>
       </li>
-      <li>
-        <Link to='/login'>
-          <button className="btn btn-outline btn-secondary capitalize">
-            Login
-          </button>
-        </Link>
-      </li>
+      <div>
+        {user?.email ? (
+          <li>
+            <button
+              onClick={handleLogOut}
+              className="btn btn-outline btn-secondary capitalize"
+            >
+              Log Out
+            </button>
+          </li>
+        ) : (
+          <li>
+            <Link to="/login">
+              <button className="btn btn-outline btn-secondary capitalize">
+                Login
+              </button>
+            </Link>
+          </li>
+        )}
+      </div>
       <li className="font-medium text-3xl">
         <Link to="/">
           <FaUserAlt></FaUserAlt>

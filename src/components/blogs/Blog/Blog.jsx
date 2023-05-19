@@ -164,7 +164,7 @@ const Blog = () => {
             <span className="font-medium">SQL: </span> SQL databases are
             commonly used for applications that require structured and
             relational data, such as financial systems, e-commerce platforms,
-            content management systems, and traditional business applications.{" "}
+            content management systems, and traditional business applications.
             <br />
             <span className="font-medium">NoSQL: </span> NoSQL databases are
             well-suited for use cases with large-scale data, high write
