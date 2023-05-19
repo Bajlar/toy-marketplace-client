@@ -66,8 +66,8 @@ Implement a search system on this page, based on the Toy name.
 
 Without logging in, if a user clicks on the View Details button, they will be redirected to the Login Page. Make sure to take the user to the Details Page after the user successfully logs in.
 
-7. Single toy details route will be a private route:
-After clicking on the View Details button, he/ she will be redirected to the Toys Details route ( /toy/:id ) containing the information ( picture, toy name, seller name, seller email, price, rating, available quantity, and detail description)
+// 7. Single toy details route will be a private route:
+// After clicking on the View Details button, he/ she will be redirected to the Toys Details route ( /toy/:id ) containing the information ( picture, toy name, seller name, seller email, price, rating, available quantity, and detail description)
 
 8. Add A Toy page will be a private route:
 // Create an Add A Toy page where there will be a form having the following fields:

@@ -13,12 +13,16 @@ const AllToys = () => {
       })
   }, [])
 
+  const handleToyDetails = (_id) => {
+    // console.log('btn delete');
+  }
+
   return (
     <div className="max-w-6xl mx-auto my-12">
       <div className="overflow-x-auto w-full">
         <table className="table w-full">
           <thead>
-            <tr>
+            <tr className='text-center'>
               <th className="text-lg capitalize">Seller Name</th>
               <th className="text-lg capitalize">Toy Name</th>
               <th className="text-lg capitalize">Sub-category</th>
@@ -29,7 +33,12 @@ const AllToys = () => {
           </thead>
           <tbody>
             {toys.map((toy) => (
-              <ToyRow key={toy._id} toy={toy} setToys={setToys}></ToyRow>
+              <ToyRow
+                key={toy._id}
+                toy={toy}
+                setToys={setToys}
+                handleToyDetails={handleToyDetails}
+              ></ToyRow>
             ))}
           </tbody>
         </table>

@@ -1,17 +1,27 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const ToyRow = ({ toy }) => {
-  console.log(toy);
-  const { sellerName, toyName, quantity, price, category } = toy;
+const ToyRow = ({ toy, handleToyDetails }) => {
+  // console.log(toy);
+  const { _id, sellerName, toyName, quantity, price, category } = toy;
 
   return (
-    <tr>
+    <tr className='text-center'>
       <td>{sellerName}</td>
       <td>{toyName}</td>
       <td>{quantity}</td>
       <td>{price}</td>
       <td>{category}</td>
-      <td><button className='btn btn-secondary'>Details</button></td>
+      <td>
+        <Link to={`/information/${_id}`}>
+          <button
+            onClick={() => handleToyDetails(_id)}
+            className="btn btn-secondary capitalize"
+          >
+            Details
+          </button>
+        </Link>
+      </td>
     </tr>
   );
 };
