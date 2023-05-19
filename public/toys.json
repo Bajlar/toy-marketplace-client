@@ -1,0 +1,202 @@
+[
+  {
+    "img": "https://i.ibb.co/JKjph9Y/sports-car-neon-aesthetic-c81z0a3543p0hq3t.jpg",
+    "rating": 4.5,
+    "sellerName": "Shakib",
+    "toyName": "Race Car",
+    "subCategory": "Remote Control Cars",
+    "price": 29.99,
+    "availableQuantity": 10,
+    "details": "The Race Car is a high-speed remote control vehicle designed for racing enthusiasts. It features a sleek design, responsive controls, and can reach speeds up to 30 mph. The car comes with a rechargeable battery and a remote control with precise steering capabilities. Get ready for thrilling races and adrenaline-pumping action with this amazing toy car!"
+  },
+  {
+    "img": "https://i.ibb.co/mzXBJMH/Whats-App-Image-2022-01-03-at-17-41-57.jpg",
+    "rating": 4.2,
+    "sellerName": "Faruk",
+    "toyName": "Dinosaur Figures Set",
+    "subCategory": "Action Figures",
+    "price": 19.99,
+    "availableQuantity": 5,
+    "details": "Embark on a prehistoric adventure with this Dinosaur Figures Set. The set includes a variety of lifelike dinosaur figures, including T-Rex, Triceratops, Stegosaurus, and more. Each figure is meticulously crafted with attention to detail and is perfect for imaginative play or educational purposes. Let your child's imagination roam free in the world of dinosaurs with this fantastic set!"
+  },
+  {
+    "img": "https://i.ibb.co/Lt1rPCB/ferrari-sf90-spider-wooden-toy-car.webp",
+    "rating": 4.8,
+    "sellerName": "Alamin",
+    "toyName": "Building Blocks",
+    "subCategory": "Construction Toys",
+    "price": 12.99,
+    "availableQuantity": 20,
+    "details": "Unleash your creativity with these Building Blocks. The set includes a variety of colorful blocks in different shapes and sizes, allowing you to build and create endless structures. Whether you want to construct towering skyscrapers, bridges, or imaginative worlds, these building blocks are perfect for both children and adults. Let your imagination soar and enjoy the endless possibilities with this classic toy!"
+  },
+  {
+    "img": "https://i.ibb.co/rfPQ2V7/8a348fb468e416bc7991614e9c1b5734-jpg-720x720-jpg.webp",
+    "rating": 4.7,
+    "sellerName": "Mamun",
+    "toyName": "DIY Robot Kit",
+    "subCategory": "STEM Toys",
+    "price": 49.99,
+    "availableQuantity": 8,
+    "details": "Explore the fascinating world of robotics with this DIY Robot Kit. The kit includes all the necessary components and instructions to build your very own robot. With programmable features and interactive capabilities, you can customize its movements, sensors, and behaviors. It's a great way to introduce children to the principles of STEM (Science, Technology, Engineering, and Mathematics) while having fun. Unleash your inner engineer and create your robot companion with this amazing kit!"
+  },
+  {
+    "img": "https://i.ibb.co/KrvB5X1/sport-car-toy-12456033-1.jpg",
+    "rating": 4.3,
+    "sellerName": "Nader",
+    "toyName": "Classic Teddy Bear",
+    "subCategory": "Plush Toys",
+    "price": 29.99,
+    "availableQuantity": 12,
+    "details": "This Classic Teddy Bear is the perfect cuddly companion for children and adults alike. With its soft fur, huggable size, and adorable expression, it's sure to bring comfort and joy. Whether it's for playtime, bedtime, or as a collectible, this timeless teddy bear is a must-have for any toy collection. Give the gift of love and warmth with this classic and lovable teddy bear!"
+  },
+  {
+    "img": "https://i.ibb.co/z44b3Kr/1920x0.webp",
+    "rating": 4.6,
+    "sellerName": "Kader",
+    "toyName": "Wooden Puzzle Set",
+    "subCategory": "Puzzles",
+    "price": 14.99,
+    "availableQuantity": 15,
+    "details": "Challenge your mind with this Wooden Puzzle Set. The set includes a variety of brain-teasing puzzles in different shapes and difficulty levels. Each puzzle is crafted from high-quality wood and offers a unique and satisfying challenge. It's a great way to improve problem-solving skills, enhance concentration, and relax. Whether you're a puzzle enthusiast or looking for a gift, this puzzle set will provide hours of entertainment and mental stimulation!"
+  },
+  {
+    "img": "https://i.ibb.co/2q8hCyZ/1564625923902-0.webp",
+    "rating": 4.4,
+    "sellerName": "Malek",
+    "toyName": "Kids Art Kit",
+    "subCategory": "Arts and Crafts",
+    "price": 24.99,
+    "availableQuantity": 20,
+    "details": "Unleash your creativity with this comprehensive Kids Art Kit. The kit includes a wide range of art supplies, such as colored pencils, markers, paints, brushes, and sketch pads. Whether you're a budding artist or just want to explore your artistic side, this kit has everything you need to create beautiful masterpieces. Let your imagination run wild and express yourself through art with this amazing kit!"
+  },
+  {
+    "img": "https://i.ibb.co/X2qcf52/ferrari-red-auto-sports-car.jpg",
+    "rating": 4.9,
+    "sellerName": "Khalek",
+    "toyName": "Quadcopter Drone",
+    "subCategory": "Remote Control Toys",
+    "price": 89.99,
+    "availableQuantity": 6,
+    "details": "Experience the thrill of flying with this Quadcopter Drone. Equipped with advanced features and a high-definition camera, this remote control drone allows you to capture breathtaking aerial photos and videos. With precise controls and stability, it's perfect for both beginners and experienced drone enthusiasts. Whether you want to explore new heights or record amazing aerial footage, this drone will take your adventures to new heights!"
+  },
+  {
+    "img": "https://i.ibb.co/KrvB5X1/sport-car-toy-12456033-1.jpg",
+    "rating": 4.2,
+    "sellerName": "Shipon",
+    "toyName": "Superhero Action Figures Set",
+    "subCategory": "Action Figures",
+    "price": 24.99,
+    "availableQuantity": 10,
+    "details": "Unleash your superpowers with this Superhero Action Figures Set. The set includes a collection of iconic superhero figures, each with its unique powers and accessories. Whether you want to recreate epic battles or create your superhero team, these action figures are a must-have for any superhero fan. Let your imagination soar and embark on thrilling adventures with these mighty heroes!"
+  },
+  {
+    "img": "https://i.ibb.co/2q8hCyZ/1564625923902-0.webp",
+    "rating": 4.8,
+    "sellerName": "Salam",
+    "toyName": "Victorian Dollhouse",
+    "subCategory": "Dolls and Accessories",
+    "price": 69.99,
+    "availableQuantity": 3,
+    "details": "Step into the enchanting world of miniatures with this Victorian Dollhouse. Impeccably crafted with intricate details and elegant design, this dollhouse is a collector's dream. With multiple rooms, furniture, and accessories, it offers endless possibilities for imaginative play and decoration. Whether you're a dollhouse enthusiast or looking for a special gift, this Victorian Dollhouse is sure to delight and captivate!"
+  },
+  {
+    "img": "https://i.ibb.co/X2qcf52/ferrari-red-auto-sports-car.jpg",
+    "rating": 4.5,
+    "sellerName": "Aminur",
+    "toyName": "Basic Building Bricks",
+    "subCategory": "Construction Toys",
+    "price": 12.99,
+    "availableQuantity": 25,
+    "details": "Ignite your creativity with these Basic Building Bricks. The set includes a variety of interlocking bricks in different shapes and colors, allowing you to build and create endless structures. Whether you want to construct buildings, vehicles, or anything your imagination can think of, these building bricks provide a solid foundation for your creations. Let your creativity soar and build the world of your dreams with these versatile building bricks!"
+  },
+  {
+    "img": "https://i.ibb.co/kQFrSBM/1.webp",
+    "rating": 4.6,
+    "sellerName": "Alom",
+    "toyName": "Jungle Friends Stuffed Animal Set",
+    "subCategory": "Plush Toys",
+    "price": 39.99,
+    "availableQuantity": 7,
+    "details": "Embark on a wild adventure with this Jungle Friends Stuffed Animal Set. The set includes a collection of adorable stuffed animals inspired by creatures from the jungle, including lions, elephants, monkeys, and more. Each plush toy is made with soft, huggable materials and features lifelike details. Whether you're looking for a snuggle buddy or a new addition to your stuffed animal collection, these jungle friends are sure to bring joy and comfort!"
+  },
+  {
+    "img": "https://i.ibb.co/pKR8KF9/2.jpg",
+    "rating": 4.3,
+    "sellerName": "Sakin",
+    "toyName": "Kids Magic Set",
+    "subCategory": "Magic and Illusion",
+    "price": 19.99,
+    "availableQuantity": 18,
+    "details": "Unleash your inner magician with this Kids Magic Set. Packed with exciting tricks and illusions, this set will amaze and entertain your audience. From card tricks to disappearing acts, you'll learn the secrets behind impressive magic tricks and become the star of your own magic show. With easy-to-follow instructions and quality props, this magic set is perfect for aspiring magicians of all ages!"
+  },
+  {
+    "img": "https://i.ibb.co/xCJdtC2/3.jpg",
+    "rating": 4.2,
+    "sellerName": "Sumon",
+    "toyName": "Triceratops Plush Toy",
+    "subCategory": "Plush Toys",
+    "price": 12.99,
+    "availableQuantity": 30,
+    "details": "Roar into fun and adventure with this Triceratops Plush Toy. The plush toy features soft, huggable materials and lifelike details, making it the perfect companion for dinosaur enthusiasts. Whether you're looking for a cuddly friend or want to add to your dinosaur collection, this triceratops plush toy is sure to delight and inspire imaginative play!"
+  },
+  {
+    "img": "https://i.ibb.co/Gv55pH3/4.webp",
+    "rating": 4.7,
+    "sellerName": "Taposh",
+    "toyName": "Construction Vehicle Toy Set",
+    "subCategory": "Vehicle Toys",
+    "price": 24.99,
+    "availableQuantity": 9,
+    "details": "Build, dig, and explore with this Construction Vehicle Toy Set. The set includes a collection of sturdy construction vehicles, including bulldozers, excavators, and dump trucks. Each vehicle is designed with realistic features and movable parts, allowing kids to engage in imaginative construction play. Whether you're creating your own construction site or exploring the world of heavy machinery, this toy set is perfect for little builders and vehicle enthusiasts!"
+  },
+  {
+    "img": "https://i.ibb.co/26ZmCY8/5.jpg",
+    "rating": 4.4,
+    "sellerName": "Rubel",
+    "toyName": "Junior Science Lab",
+    "subCategory": "STEM Toys",
+    "price": 29.99,
+    "availableQuantity": 14,
+    "details": "Unleash the scientist within with this Junior Science Lab. The kit includes a variety of exciting experiments and hands-on activities that introduce children to the wonders of science. From exploring chemical reactions to learning about the power of electricity, this kit provides a fun and educational experience. With easy-to-follow instructions and safety guidelines, it's a perfect choice for budding scientists and curious minds!"
+  },
+  {
+    "img": "https://i.ibb.co/kyb76VD/6.webp",
+    "rating": 4.6,
+    "sellerName": "Sunny",
+    "toyName": "Kitchen Playset",
+    "subCategory": "Pretend Play",
+    "price": 49.99,
+    "availableQuantity": 5,
+    "details": "Spark your child's imagination with this Kitchen Playset. The playset features a realistic kitchen design with interactive features, including a sink, stove, oven, and storage compartments. It comes with play food, utensils, and accessories, allowing children to engage in imaginative cooking and role-playing. Whether your little one dreams of being a chef or enjoys pretend play, this kitchen set provides endless hours of fun and creative play!"
+  },
+  {
+    "img": "https://i.ibb.co/ScThqPJ/g-1.webp",
+    "rating": 4.8,
+    "sellerName": "Bashar",
+    "toyName": "RC Racing Car",
+    "subCategory": "Remote Control Cars",
+    "price": 59.99,
+    "availableQuantity": 8,
+    "details": "Experience the thrill of high-speed racing with this RC Racing Car. Equipped with powerful motors and responsive controls, this remote control car offers an exhilarating racing experience. Whether you're competing with friends or performing daring stunts, this racing car is designed for speed and performance. Get ready to rev your engines and race to the finish line with this exciting RC racing car!"
+  },
+  {
+    "img": "https://i.ibb.co/3rZZ9pr/g-2.jpg",
+    "rating": 4.5,
+    "sellerName": "Rahim",
+    "toyName": "Kids Art Easel",
+    "subCategory": "Arts and Crafts",
+    "price": 34.99,
+    "availableQuantity": 12,
+    "details": "Unleash your child's creativity with this Kids Art Easel. The easel features a sturdy construction and adjustable height, making it perfect for young artists. With a chalkboard on one side and a whiteboard on the other, it offers multiple creative options. It also comes with storage trays to keep art supplies organized. Whether your child enjoys drawing, painting, or writing, this art easel provides a versatile and engaging platform for artistic expression!"
+  },
+  {
+    "img": "https://i.ibb.co/YQd4TyB/g-3.jpg",
+    "rating": 4.7,
+    "sellerName": "Karim",
+    "toyName": "Deluxe Marble Run Set",
+    "subCategory": "Building Sets",
+    "price": 39.99,
+    "availableQuantity": 6,
+    "details": "Challenge your problem-solving skills with this Deluxe Marble Run Set. The set includes a variety of tracks, towers, and obstacles that allow you to create intricate marble runs. Watch as the marbles navigate through twists, turns, and gravity-defying drops. It's a great way to enhance spatial awareness, critical thinking, and hand-eye coordination. Whether you're a beginner or a marble run enthusiast, this deluxe set provides endless hours of marble racing fun!"
+  }
+]

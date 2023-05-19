@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 
 const Login = () => {
 
-  const { signIn } = useContext(AuthContext);
+  const { signIn, googleSignUp } = useContext(AuthContext);
 
   const handleLogin = event => {
     event.preventDefault();
@@ -16,7 +16,7 @@ const Login = () => {
     const email = form.email.value;
     const password = form.password.value;
     const userLogin = { email, password };
-    console.log(userLogin);
+    // console.log(userLogin);
 
     signIn(email, password)
       .then((result) => {
@@ -32,6 +32,27 @@ const Login = () => {
       })
       .catch((error) => console.log(error));
   }
+
+  const handleGoogleSignIn = () => {
+    // console.log('google button click');
+    googleSignUp()
+      .then((result) => {
+        const googleSign = result.user;
+        console.log(googleSign);
+        if (googleSign) {
+          Swal.fire({
+            title: "Success!",
+            text: "Google login successfully",
+            icon: "success",
+            confirmButtonText: "Ok",
+          });
+          form.reset();
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
 
   return (
     <div className="hero min-h-screen">
@@ -79,7 +100,10 @@ const Login = () => {
               <div className="text-center mt-7">
                 <p>Or Sign In with Google</p>
                 <div className="flex justify-center gap-4 mt-4">
-                  <button className="btn btn-circle border-none bg-amber-700 hover:bg-[#FF3811]">
+                  <button
+                    onClick={handleGoogleSignIn}
+                    className="btn btn-circle border-none bg-amber-700 hover:bg-[#FF3811]"
+                  >
                     <FaGoogle></FaGoogle>
                   </button>
                 </div>

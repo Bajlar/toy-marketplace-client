@@ -52,14 +52,14 @@ Note: When a user is not logged in and if he/ she clicks on the View Details but
 // What is express js? What is Nest JS (google it)?
 // What is MongoDB aggregate and how does it work (google it)?
 
-6. All Toys page: Create an All Toys page where you will see the toys all the users have added in the tabular form. Each row of the All Toys table/list will have the following information:
+// 6. All Toys page: Create an All Toys page where you will see the toys all the users have added in the tabular form. Each row of the All Toys table/list will have the following information:
 
-Seller: (if available) show the name of the person who posted the toy
-Toy Name
-Sub-category
-Price
-Available Quantity
-View Details button
+// Seller: (if available) show the name of the person who posted the toy
+// Toy Name
+// Sub-category
+// Price
+// Available Quantity
+// View Details button
 
 Show 20 results by default by using limit
 Implement a search system on this page, based on the Toy name.
@@ -70,16 +70,16 @@ Without logging in, if a user clicks on the View Details button, they will be re
 After clicking on the View Details button, he/ she will be redirected to the Toys Details route ( /toy/:id ) containing the information ( picture, toy name, seller name, seller email, price, rating, available quantity, and detail description)
 
 8. Add A Toy page will be a private route:
-Create an Add A Toy page where there will be a form having the following fields:
-Picture URL of the toy,
-Name,
-seller name (if available from the logged in user)
-seller email (info from the logged in user)
-Sub-category ( For example: if the website is based on Educational and learning toys, the sub-categories can be Math Toys, Language Toys, and Science Toys.)
-Price,
-Rating,
-Available quantity
-Detail description
+// Create an Add A Toy page where there will be a form having the following fields:
+// Picture URL of the toy,
+// Name,
+// seller name (if available from the logged in user)
+// seller email (info from the logged in user)
+// Sub-category ( For example: if the website is based on Educational and learning toys, the sub-categories can be Math Toys, Language Toys, and Science Toys.)
+// Price,
+// Rating,
+// Available quantity
+// Detail description
 
 9. My Toys page will be private routes: If a user logs in, they will see the My Toys page, which it will show all the toys information they have added from the Add A Toy page in a tabular form. Each row will have an update and delete button.
 
@@ -91,12 +91,12 @@ Delete Action - If they click the delete button, the Toy will be removed from th
 
 Note:** If a user logs in they will only see the toys they have added. The user cannot see the toys other users added.
 
-10. For all the CRUD operations, show relevant toast/ notification/ anything with a meaningful message
+// 10. For all the CRUD operations, show relevant toast/ notification/ anything with a meaningful message
 
 // 11. 404 page:
 // Create a 404 page. Add any interesting jpg/ gif on the 404 page. Do not add header & footer on this page. Just add a jpg/ gif & a Back to home button. TheBack to home button will redirect the user to the home page.
 
-12. Use the Environment variable to hide the Firebase config keys and Mongodb credentials.
+// 12. Use the Environment variable to hide the Firebase config keys and Mongodb credentials.
 */
 
 /**
@@ -109,7 +109,7 @@ Create a readme for client-side and write about your project (at least 5 bullet 
 
 2. Reload: If you reload the protected/private routes (after login), this page will not redirect the user to the login page. Instead, it will keep the logged-in user on the protected route.
 
-3. Make Home page of your website mobile & desktop responsive (tablet responsive is optional)
+// 3. Make Home page of your website mobile & desktop responsive (tablet responsive is optional)
 
 4. Use the AOS Package in the home page. At least in one place on the home page. Using AOS on other pages is optional.
 
@@ -117,5 +117,18 @@ Create a readme for client-side and write about your project (at least 5 bullet 
 
 6. Give your website name. The website title will be changed according to the route you are clicking. Suppose your website name is PHero. Then, on the ‘about’ route, your website title will be ‘PHero | About us’.
 
-7. Make the component name, folder structure, and route name meaningful. If needed, add comments.
+// 7. Make the component name, folder structure, and route name meaningful. If needed, add comments.
+*/
+
+/*
+id
+Picture
+Name
+Price
+Rating
+Seller
+Toy Name
+Sub-category
+Price
+Available Quantity
 */

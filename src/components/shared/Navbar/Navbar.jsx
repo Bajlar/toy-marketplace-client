@@ -20,27 +20,29 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="font-medium">
-        <Link to="/">All Toys</Link>
+        <Link to="/allToys">All Toys</Link>
       </li>
       <li className="font-medium">
         <Link to="/">My Toys</Link>
       </li>
       <li className="font-medium">
-        <Link to="/">Add A Toy</Link>
+        <Link to="/toys">Add A Toy</Link>
       </li>
       <li className="font-medium">
         <Link to="/blogs">Blogs</Link>
       </li>
       <div>
         {user?.email ? (
-          <li>
-            <button
-              onClick={handleLogOut}
-              className="btn btn-outline btn-secondary capitalize"
-            >
-              Log Out
-            </button>
-          </li>
+          <>
+            <li>
+              <button
+                onClick={handleLogOut}
+                className="btn btn-outline btn-secondary capitalize"
+              >
+                Log Out
+              </button>
+            </li>
+          </>
         ) : (
           <li>
             <Link to="/login">

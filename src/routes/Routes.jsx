@@ -5,10 +5,12 @@ import Error from "../components/error/Error/Error";
 import Blog from "../components/blogs/Blog/Blog";
 import Login from "../components/login/Login/Login";
 import SignUp from "../components/login/SignUp/SignUp";
+import AddAToy from "../components/toyPage/AddAToy";
+import AllToys from "../components/toyPage/AllToys";
 
 const router = createBrowserRouter([
   {
-    path: '*',
+    path: "*",
     element: <Error></Error>
   },
   {
@@ -16,23 +18,31 @@ const router = createBrowserRouter([
     element: <MainLayout></MainLayout>,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home></Home>
       },
       {
-        path: '/blogs',
+        path: "/blogs",
         element: <Blog></Blog>
       },
       {
-        path: '/login',
+        path: "/login",
         element: <Login></Login>
       },
       {
-        path: '/signUp',
+        path: "/signUp",
         element: <SignUp></SignUp>
+      },
+      {
+        path: "/toys",
+        element: <AddAToy></AddAToy>
+      },
+      {
+        path: "/allToys",
+        element: <AllToys></AllToys>
       }
-    ]
-  }
+    ],
+  },
 ]);
 
 export default router;
