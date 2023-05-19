@@ -43,7 +43,7 @@ View Details button.
 
 Note: When a user is not logged in and if he/ she clicks on the View Details button, notify the user with a message “You have to log in first to view details” by using a toast/ notification/ anything. Also, redirect him/ her to the login page. Without a login, you can not visit the single toy details page.
 
-Extra Section: Add two relevant sections. Try to make them attractive.
+// Extra Section: Add two relevant sections. Try to make them attractive.
 
 // 5. Blogs page: Create a Blog where you will have to answer the following questions:
 

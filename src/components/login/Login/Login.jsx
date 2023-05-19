@@ -61,12 +61,12 @@ const Login = () => {
               <div className="text-center mt-7">
                 <p>Or Sign In with Google</p>
                 <div className="flex justify-center gap-4 mt-4">
-                  <button className="btn btn-circle bg-[#be5e4b] hover:bg-[#FF3811]">
+                  <button className="btn btn-circle border-none bg-amber-700 hover:bg-[#FF3811]">
                     <FaGoogle></FaGoogle>
                   </button>
                 </div>
                 <p className="mt-4">
-                  New to site go to?
+                  New to my site go to?
                   <Link to="/signUp">
                     <span className="text-[#FF3811]"> Sign In</span>
                   </Link>
