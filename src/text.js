@@ -7,13 +7,13 @@
 
 Note: The User profile picture, Add A Toy and My Toys on the navbar are conditional based on login. If the user is logged in, the navbar will show the profile picture; otherwise, it will show the Login button. If the username is available, the user's name will be visible when the mouse hovers over the profile picture.
 
-3. Login & Registration systems: On the Registration and Login pages, display relevant error messages when necessary.
+// 3. Login & Registration systems: On the Registration and Login pages, display relevant error messages when necessary.
 
-Login Page: When a user clicks on the login button, they will be redirected to the login page having the following:
+// Login Page: When a user clicks on the login button, they will be redirected to the login page having the following:
 
-Email/Password
-Google Sign-in
-A link that will redirect to the registration page
+// Email/Password
+// Google Sign-in
+// A link that will redirect to the registration page
 
 Registration Page: The Registration page will have the Email/Password form having the following fields:
 

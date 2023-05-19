@@ -7,13 +7,33 @@ const Navbar = () => {
 
   const navItems = (
     <>
-      <li className="font-medium"> <Link to="/">Home</Link> </li>
-      <li className="font-medium"> <Link to="/">All Toys</Link> </li>
-      <li className="font-medium"> <Link to="/">My Toys</Link> </li>
-      <li className="font-medium"> <Link to="/">Add A Toy</Link> </li>
-      <li className="font-medium"> <Link to="/blogs">Blogs</Link> </li>
-      <li><button className="btn btn-outline btn-secondary capitalize">Login</button></li>
-      <li className="font-medium text-3xl"> <Link to="/"> <FaUserAlt></FaUserAlt> </Link> </li>
+      <li className="font-medium">
+        <Link to="/">Home</Link>
+      </li>
+      <li className="font-medium">
+        <Link to="/">All Toys</Link>
+      </li>
+      <li className="font-medium">
+        <Link to="/">My Toys</Link>
+      </li>
+      <li className="font-medium">
+        <Link to="/">Add A Toy</Link>
+      </li>
+      <li className="font-medium">
+        <Link to="/blogs">Blogs</Link>
+      </li>
+      <li>
+        <Link to='/login'>
+          <button className="btn btn-outline btn-secondary capitalize">
+            Login
+          </button>
+        </Link>
+      </li>
+      <li className="font-medium text-3xl">
+        <Link to="/">
+          <FaUserAlt></FaUserAlt>
+        </Link>
+      </li>
     </>
   );
 
