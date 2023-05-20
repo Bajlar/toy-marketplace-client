@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { AuthContext } from '../../../providers/AuthProviders';
 import Swal from 'sweetalert2';
 import { FaGoogle } from 'react-icons/fa';
+import useTitle from '../../../hooks/Usetitle';
 
 const SignUp = () => {
-
+  useTitle('SignUp');
+  
   const { createUser, googleSignUp } = useContext(AuthContext);
 
   const handleSignUp = event => {

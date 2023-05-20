@@ -4,8 +4,11 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaGoogle } from 'react-icons/fa';
 import { AuthContext } from '../../../providers/AuthProviders';
 import Swal from 'sweetalert2';
+import useTitle from '../../../hooks/Usetitle';
 
 const Login = () => {
+  useTitle('Login');
+
   const { signIn, googleSignUp } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();

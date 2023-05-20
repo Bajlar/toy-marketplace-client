@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import ToyRow from './ToyRow';
+import useTitle from '../../hooks/Usetitle';
 
 const AllToys = () => {
+  useTitle('All Toys');
+  
   const [toys, setToys] = useState([]);
 
   const url = "http://localhost:5000/toys";
@@ -25,9 +28,9 @@ const AllToys = () => {
             <tr className="text-center">
               <th className="text-lg capitalize">Seller Name</th>
               <th className="text-lg capitalize">Toy Name</th>
-              <th className="text-lg capitalize">Sub-category</th>
-              <th className="text-lg capitalize">Price</th>
               <th className="text-lg capitalize">Available Quantity</th>
+              <th className="text-lg capitalize">Price</th>
+              <th className="text-lg capitalize">Sub-category</th>
               <th className="text-lg capitalize">View Details button</th>
             </tr>
           </thead>

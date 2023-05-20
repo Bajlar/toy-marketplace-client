@@ -6,7 +6,7 @@ const ToyRow = ({ toy, handleToyDetails }) => {
   const { _id, sellerName, toyName, quantity, price, category } = toy;
 
   return (
-    <tr className='text-center'>
+    <tr className="text-center">
       <td>{sellerName}</td>
       <td>{toyName}</td>
       <td>{quantity}</td>

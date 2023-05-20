@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import SingleMyToy from './SingleMyToy';
 import Swal from 'sweetalert2';
+import useTitle from '../../hooks/Usetitle';
 
 const MyToys = () => {
+  useTitle('My Toys');
 
   const [myToy, setMyToy] = useState([]);
 
@@ -45,9 +47,9 @@ const MyToys = () => {
             <tr className="text-center">
               <th className="text-lg capitalize">Seller Name</th>
               <th className="text-lg capitalize">Toy Name</th>
-              <th className="text-lg capitalize">Sub-category</th>
-              <th className="text-lg capitalize">Price</th>
               <th className="text-lg capitalize">Available Quantity</th>
+              <th className="text-lg capitalize">Price</th>
+              <th className="text-lg capitalize">Sub-category</th>
               <th className="text-lg capitalize">Update</th>
               <th className="text-lg capitalize">Remove</th>
             </tr>
