@@ -6,9 +6,9 @@ import ShippingReturns from '../ShippingReturns/ShippingReturns';
 
 const Home = () => {
   return (
-    <div className='max-w-6xl mx-auto'>
+    <div className="max-w-6xl mx-auto">
       <Banner></Banner>
-      <PhotoGallery></PhotoGallery>
+      <PhotoGallery data-aos="flip-left"></PhotoGallery>
       <PopularToys></PopularToys>
       <ShippingReturns></ShippingReturns>
     </div>

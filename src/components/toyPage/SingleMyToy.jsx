@@ -13,7 +13,7 @@ const SingleMyToy = ({ mt, handleDelete }) => {
       <td>{price}</td>
       <td>{category}</td>
       <td>
-        <Link>
+        <Link to={`/updateToy/${_id}`}>
           <button className="btn btn-outline btn-secondary capitalize">
             Update
           </button>

@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import logo from "../../../assets/images/logo/logo.jpg";
 import { Link } from "react-router-dom";
-import { FaUserAlt } from "react-icons/fa";
 import { AuthContext } from "../../../providers/AuthProviders";
 
 const Navbar = () => {
+  const [isHovered, setIsHovered] = useState(false);
 
   const { user, logOut } = useContext(AuthContext);
 
@@ -33,7 +33,7 @@ const Navbar = () => {
       </li>
       <div>
         {user?.email ? (
-          <>
+          <ul className="flex items-center">
             <li>
               <button
                 onClick={handleLogOut}
@@ -42,7 +42,26 @@ const Navbar = () => {
                 Log Out
               </button>
             </li>
-          </>
+            <li>
+              <span className="font-bold">{user?.displayName}</span>
+            </li>
+            <li>
+              <div className="avatar">
+                <div
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                  className="w-12 rounded-full"
+                >
+                  <img src={user?.photoURL} />
+                  {isHovered && (
+                    <span className="absolute top-4 text-xs text-white font-bold">
+                      {user?.displayName}
+                    </span>
+                  )}
+                </div>
+              </div>
+            </li>
+          </ul>
         ) : (
           <li>
             <Link to="/login">
@@ -53,11 +72,6 @@ const Navbar = () => {
           </li>
         )}
       </div>
-      <li className="font-medium text-3xl">
-        <Link to="/">
-          <FaUserAlt></FaUserAlt>
-        </Link>
-      </li>
     </>
   );
 

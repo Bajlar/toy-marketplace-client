@@ -38,7 +38,7 @@ const Login = () => {
     googleSignUp()
       .then((result) => {
         const googleSign = result.user;
-        console.log(googleSign);
+        // console.log(googleSign);
         if (googleSign) {
           Swal.fire({
             title: "Success!",

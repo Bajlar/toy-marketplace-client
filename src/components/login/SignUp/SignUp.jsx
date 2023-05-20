@@ -3,10 +3,11 @@ import login from "../../../assets/images/login/login-img.gif";
 import { Link } from "react-router-dom";
 import { AuthContext } from '../../../providers/AuthProviders';
 import Swal from 'sweetalert2';
+import { FaGoogle } from 'react-icons/fa';
 
 const SignUp = () => {
 
-  const { createUser } = useContext(AuthContext);
+  const { createUser, googleSignUp } = useContext(AuthContext);
 
   const handleSignUp = event => {
     event.preventDefault();
@@ -33,6 +34,27 @@ const SignUp = () => {
       })
       .catch((error) => console.log(error));
   }
+
+  const handleGoogleSignIn = () => {
+    // console.log('google button click');
+    googleSignUp()
+      .then((result) => {
+        const googleSign = result.user;
+        // console.log(googleSign);
+        if (googleSign) {
+          Swal.fire({
+            title: "Success!",
+            text: "Google login successfully",
+            icon: "success",
+            confirmButtonText: "Ok",
+          });
+          form.reset();
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
 
   return (
     <div className="hero min-h-screen">
@@ -101,12 +123,23 @@ const SignUp = () => {
                 />
               </div>
               <div className="text-center mt-7">
-                <p className="mt-4">
-                  Already Have an Account?
-                  <Link to="/login">
-                    <span className="text-[#FF3811]"> Login</span>
-                  </Link>
-                </p>
+                <div className="text-center mt-7">
+                  <p>Or Sign In with Google</p>
+                  <div className="flex justify-center gap-4 mt-4">
+                    <button
+                      onClick={handleGoogleSignIn}
+                      className="btn btn-circle border-none bg-amber-700 hover:bg-[#FF3811]"
+                    >
+                      <FaGoogle></FaGoogle>
+                    </button>
+                  </div>
+                  <p className="mt-4">
+                    Already Have an Account?
+                    <Link to="/login">
+                      <span className="text-[#FF3811]"> Login</span>
+                    </Link>
+                  </p>
+                </div>
               </div>
             </form>
           </div>
