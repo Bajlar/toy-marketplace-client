@@ -26,7 +26,7 @@ const Info = () => {
           <p>Seller name: {sellerName}</p>
           <p>Seller email: {email}</p>
           <p>
-            Price: <span className="text-orange-500 font-semibold">$</span>
+            Price: <span className="text-orange-500 font-semibold">$ </span>
             {price}
           </p>
           <p>Rating: {rating}</p>

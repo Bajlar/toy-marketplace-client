@@ -83,9 +83,9 @@ Without logging in, if a user clicks on the View Details button, they will be re
 
 // 9. My Toys page will be private routes: If a user logs in, they will see the My Toys page, which it will show all the toys information they have added from the Add A Toy page in a tabular form. Each row will have an update and delete button.
 
-Update Action - If they click the update button, they can update the Toy information (Price, available quantity, Detail description)
+// Update Action - If they click the update button, they can update the Toy information (Price, available quantity, Detail description)
 
-Note: you can show the update form in a modal or another route.
+// Note: you can show the update form in a modal or another route.
 
 // Delete Action - If they click the delete button, the Toy will be removed from the list. Before the delete, ask for a delete confirmation.
 

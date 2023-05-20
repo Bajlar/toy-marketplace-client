@@ -42,7 +42,7 @@ const UpdateToy = () => {
       quantity,
       details
     };
-    console.log(updateToys);
+    // console.log(updateToys);
 
     fetch(`http://localhost:5000/toys/${_id}`, {
       method: "PUT",
@@ -53,7 +53,7 @@ const UpdateToy = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         if (data.modifiedCount === 1) {
           Swal.fire({
             title: "Success!",

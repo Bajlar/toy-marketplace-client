@@ -23,9 +23,6 @@ const Navbar = () => {
         <Link to="/allToys">All Toys</Link>
       </li>
       <li className="font-medium">
-        <Link to="/myToys">My Toys</Link>
-      </li>
-      <li className="font-medium">
         <Link to="/toys">Add A Toy</Link>
       </li>
       <li className="font-medium">
@@ -34,6 +31,9 @@ const Navbar = () => {
       <div>
         {user?.email ? (
           <ul className="flex items-center">
+            <li className="font-medium">
+              <Link to="/myToys">My Toys</Link>
+            </li>
             <li>
               <button
                 onClick={handleLogOut}
