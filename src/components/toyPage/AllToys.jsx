@@ -20,9 +20,9 @@ const AllToys = () => {
   return (
     <div className="max-w-6xl mx-auto my-12">
       <div className="overflow-x-auto w-full">
-        <table className="table w-full">
+        <table className="min-w-full divide-gray-200">
           <thead>
-            <tr className='text-center'>
+            <tr className="text-center">
               <th className="text-lg capitalize">Seller Name</th>
               <th className="text-lg capitalize">Toy Name</th>
               <th className="text-lg capitalize">Sub-category</th>

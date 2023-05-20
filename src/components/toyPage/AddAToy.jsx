@@ -26,7 +26,7 @@ const AddAToy = () => {
       quantity,
       details,
     };
-    console.log(addToys);
+    // console.log(addToys);
 
     fetch("http://localhost:5000/toys", {
       method: "POST",
@@ -37,7 +37,7 @@ const AddAToy = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         if (data.insertedId) {
           Swal.fire({
             title: "Success!",
@@ -45,7 +45,7 @@ const AddAToy = () => {
             icon: "success",
             confirmButtonText: "Ok",
           });
-          form.reset();
+          // form.reset();
         }
       });
   }
