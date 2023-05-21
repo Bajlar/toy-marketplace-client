@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import SingleMyToy from './SingleMyToy';
 import Swal from 'sweetalert2';
 import useTitle from '../hooks/useTitle';
+import { AuthContext } from '../../providers/AuthProviders';
 
 const MyToys = () => {
   useTitle('My Toys');
+  const { user } = useContext(AuthContext);
 
   const [myToy, setMyToy] = useState([]);
 
-  const url = "https://toy-street-server.vercel.app/toys";
+  const url = `https://toy-street-server.vercel.app/myToys?email=${user.email}`;
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
@@ -21,7 +23,7 @@ const MyToys = () => {
     const click = confirm('Are you sure you want to delete');
     if (click) {
       fetch(`https://toy-street-server.vercel.app/toys/${_id}`, {
-        method: 'DELETE'
+        method: "DELETE",
       })
         .then((res) => res.json())
         .then((data) => {
@@ -32,7 +34,7 @@ const MyToys = () => {
               icon: "success",
               confirmButtonText: "Ok",
             });
-            const remaining = myToy.filter(mt => mt._id !== _id);
+            const remaining = myToy.filter((mt) => mt._id !== _id);
             setMyToy(remaining);
           }
         });
