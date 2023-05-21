@@ -48,7 +48,7 @@ const AddAToy = () => {
             icon: "success",
             confirmButtonText: "Ok",
           });
-          // form.reset();
+          form.reset();
         }
       });
   }

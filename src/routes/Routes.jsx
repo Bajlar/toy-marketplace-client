@@ -72,7 +72,7 @@ const router = createBrowserRouter([
         element: <UpdateToy></UpdateToy>,
         loader: ({ params }) =>
           fetch(`https://toy-street-server.vercel.app/toys/${params.id}`),
-      },
+      }
     ],
   },
 ]);

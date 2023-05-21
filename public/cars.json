@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "10832bb",
+    "img": "https://i.ibb.co/X2qcf52/ferrari-red-auto-sports-car.jpg",
+    "name": "Classic Red Sports Car",
+    "price": 19.99,
+    "rating": 4.5
+  },
+  {
+    "_id": "22356ff",
+    "img": "https://i.ibb.co/KrvB5X1/sport-car-toy-12456033-1.jpg",
+    "name": "Vintage Blue Sedan",
+    "price": 24.99,
+    "rating": 4.2
+  }
+]
