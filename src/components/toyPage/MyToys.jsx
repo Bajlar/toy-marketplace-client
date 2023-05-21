@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SingleMyToy from './SingleMyToy';
 import Swal from 'sweetalert2';
-import useTitle from '../../hooks/Usetitle';
+import useTitle from '../hooks/useTitle';
 
 const MyToys = () => {
   useTitle('My Toys');

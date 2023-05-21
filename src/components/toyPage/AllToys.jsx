@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import ToyRow from './ToyRow';
-import useTitle from '../../hooks/Usetitle';
+import useTitle from '../hooks/useTitle';
 
 const AllToys = () => {
   useTitle('All Toys');
-  
+
   const [toys, setToys] = useState([]);
 
   const url = "http://localhost:5000/toys";

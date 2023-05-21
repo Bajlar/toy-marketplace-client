@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaGoogle } from 'react-icons/fa';
 import { AuthContext } from '../../../providers/AuthProviders';
 import Swal from 'sweetalert2';
-import useTitle from '../../../hooks/Usetitle';
+import useTitle from '../../hooks/useTitle';
 
 const Login = () => {
   useTitle('Login');
